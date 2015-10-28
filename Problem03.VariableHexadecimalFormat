@@ -1,0 +1,14 @@
+// Primitive-Data-Types
+// Programming Basics September
+
+using System;
+
+class VariableHexadecimalFormat
+{
+    static void Main()
+    {
+        char variable = '\u00FE';
+        Console.WriteLine(variable);
+        Console.ReadLine();
+    }
+}
