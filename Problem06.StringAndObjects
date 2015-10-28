@@ -1,0 +1,17 @@
+// Primitive-Data-Types
+// Programming Basics September
+
+using System;
+
+class StringsAndObjects
+{
+    static void Main()
+    {
+        string a = "Hello";
+        string b = "World";
+        object greeting = a + " " + b;
+        string concat = (string)greeting;
+        Console.WriteLine(concat);
+        Console.ReadLine();
+    }
+}
