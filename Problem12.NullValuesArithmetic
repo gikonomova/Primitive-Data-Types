@@ -1,0 +1,24 @@
+// Primitive-Data-Types
+// Programming Basics September
+
+using System;
+
+class NullValuesArithmetic
+{
+    static void Main()
+    {
+        // The following does not work because variables are not nullable.
+        //int testInt = null;
+        //double testDouble = null;
+
+        // The following works:
+        int? testInt = null;
+        double? testDouble = null;
+        string testString = null;
+
+        Console.WriteLine(testInt);
+        Console.WriteLine(testDouble);
+        Console.WriteLine(testString);
+        Console.ReadLine();
+    }
+}
